@@ -5,10 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.img {
-  mask-image: url(/VI.png);
-}
-
 .signin {
   /* background: burlywood;
   height: auto;
@@ -19,11 +15,11 @@
   position: absolute;
   top: auto;
   z-index: auto; */
-
+  background-image: url(/NewProject/VI.png);
   width: 360px;
   height: 500px;
-  background: blue;
-  color: #fff;
+  /* background: blue; */
+  /* color: #fff; */
   top: 50%;
   left: 50%;
   position: absolute;
