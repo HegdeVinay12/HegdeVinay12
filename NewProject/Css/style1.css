@@ -1,0 +1,46 @@
+* {
+  box-sizing: content-box;
+  margin: auto;
+  padding: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+  mask-image: url(/VI.png);
+}
+
+.signin {
+  /* background: burlywood;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  position: absolute;
+  top: auto;
+  z-index: auto; */
+
+  width: 360px;
+  height: 500px;
+  background: blue;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 50px 20px;
+  border-radius: 5%;
+}
+
+.firstname {
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signin input {
+  width: auto;
+  margin-bottom: 10%;
+}
+
+.signin input[type='text'];
